@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang= "ja">
+<head>
+	<meta charset = "UTF-8">
+	<meta name= "viewport" content= "width=device-width, initial-scale=1.0">
+		<link rel= "stylesheet" href= "programmer_idol.css">
+		<link rel= "stylesheet" href= "programmer_idol(Responsive).css">
+		<link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet"> <!--Font Awesomeの三本線-->
+		<script src= "https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script>
+			jQuery(function ($) {
+				$(function () {
+			    	$("#hamburger i").click(function () {
+				    	if ($("#header_menu_responsive").hasClass("open")) {
+				        	$("#header_menu_responsive").removeClass("open").fadeOut(500);
+				        	$(this).css("color","#595757");
+				    	} else {
+				        	$("#header_menu_responsive").addClass("open").fadeIn(500);
+				        	$(this).css("color","#b5b5b6");
+				    	}
+			    	});
+			  	});
+			}); 
+		</script>
+	<title>Main</title>
+	
+</head>
+
+<body>
+<div id= "wrapper">
+<header id="header">
+	<div id= "header_wrapper" class= "width_1018px">
+		<div id= "header_logo">
+			<img src="./img/0_header/rogo.png">
+		</div>
+		
+		
+		
+		<nav id= "header_menu_desktop">
+				<ul id= "header_menu">
+					<li class= "header_menus"><img src= "./img/0_header/head_line.png"><a href= "#project_mission">MISSION<br>ミッション</a></li>
+					<li class= "header_menus"><img src= "./img/0_header/head_line.png"><a href= "#point_images">facebook<br>ブログ</a></li>
+					<li class= "header_menus"><img src= "./img/0_header/head_line.png"><a href= "#profile">PROFILE<br>プロフィール</a></li>
+					<li class= "header_menus"><img src= "./img/0_header/head_line.png"><a href= "#video">VIDEO<br>動画</a></li>
+					<li class= "header_menus"><img src= "./img/0_header/head_line.png"><a href= "#topix">TOPIX<br>トピックス</a></li>
+					<li class= "header_menus"><img src= "./img/0_header/head_line.png"><a href= "#news">NEWS<br>ニュース</a></li>
+				</ul>
+		</nav>
+		
+		<div id= "hamburger"><i class="fas fa-bars" ontouchstart=""></i></div> <!-- ハンバーガーメニューのアイコン -->
+		
+		<nav id= "header_menu_responsive">
+				<ul id= "hamburger_menu">
+					<li class= "hamburger_menus"><a href= "#project_mission">MISSION</a></li>
+					<li class= "hamburger_menus"><a href= "#point_images">FACEBOOK</a></li>
+					<li class= "hamburger_menus"><a href= "#profile">PROFILE</a></li>
+					<li class= "hamburger_menus"><a href= "#video">VIDEO</a></li>
+					<li class= "hamburger_menus"><a href= "#topix">TOPIX</a></li>
+					<li class= "hamburger_menus"><a href= "#news">NEWS</a></li>
+				</ul>
+		</nav>
+		
+	</div>
+</header>
+
+	<div id= "top_image">
+		<img src= "./img/top_image/top_img.jpg" id= "top_image_pic">	<!--メインのトップ画像 -->
+		
+		<figure id= "top_image_upon">		<!--白いパソコン画像と「Programmer Idol project」の文字 -->
+			<img src= "./img/top_image/pc_icon.png">
+			<figcaption><p>Programmer Idol project</p></figcaption>
+		</figure>
+			
+		<img src= "./img/top_image/nat2_line_01.png" id= "spots_line"> <!--水玉模様の線部分-->
+	</div>
+	
+<!--<div id="wrapper">-->
+<article>
+	<section id= "project_mission" class= "background_blue">
+		<div id= "project_mission_inner" class= "width_1018px">
+			<div id= "project_mission_logo">
+				<img src= "./img/1_body_upper/medal.png">
+			</div>
+			<div id= "project_mission_text" class= "fontsize_24px">
+				<p><span class= "strong">プログラミング初心者</span>の、アイドルさん……。</p>
+				<p><span class= "strong">ホームページを作ること</span>ができるようになるか!?</p>
+				<p>仕事ができるようになるか!?</p>
+			</div>
+		</div>
+	</section>
+	
+	<section id= "point" class= "background_yellow">
+		<div class= "width_1018px">
+			<p id= "point_comment">そのスキルアップの様子を<br class= "responsive_folding">
+			みんなで<span class= "strong responsive_strong">応援しよう！</span></p>
+				
+				<h3 id= "point_tab">POINT</h3> <!--border-radius, background-color, colorを活用-->
+				<div id= "point_text">
+					<div id= "point_intro">
+						<p>「プログラマーアイドルプロジェクト」は<span class= "text_underline">受講者アイドル</span>さんと<br class= "responsive_unfolding" />
+						<span class= "text_underline">ひきこもり当事者・経験者</span>のあなたを結ぶ<br class= "responsive_unfolding" />
+						<span class= "text_underline">コミュニケーションサイト</span>です。</p>
+						<small>※もちろんですが、ひきこもり当事者・経験者以外のご参加も大歓迎です。</small>
+					</div>
+					<div id= "point_collab">
+						<p>ひきこもり経験者が中心となって設立された、IT教育等を行う「株式会社ウチらめっちゃ細かいんで」と、<br class= "responsive_unfolding" />
+						手束真知子さんがオーナーのアイドル「発掘！グラドル文化祭」とのコミュニケーションイベントからの繋がりで、<br class= "responsive_unfolding" />
+						今回このコラボプロジェクトが始動されました。</p>
+					</div>
+				</div>
+				
+				<div id= "point_images">
+					<img src= "./img/1_body_upper/illust_1.png" class= "responsive_width_fit">
+					<img src= "./img/1_body_upper/btn_1.png" class= "mouseover_white responsive_width_fit">
+				</div>
+		</div>
+	</section>
+	
+	
+	<!--http://commonsense-design.com/web/thumbnail-hover-css/#index2-5 ⇒hoverのエフェクト、長いコードなので注意。-->
+	<section id= "profile"> <!--(!)CSSの#profileのbackground関係要素で背景を設定しています。-->
+		<div class= "width_1018px">
+			<h1 class= "text_pink">PROFILE</h1>
+			
+				<div class= "profile_photos_array">
+					<figure class= "profile_photos">
+						<a href= "profile1.html" ontouchstart="">
+							<img src= "./img/2_profile/photo_p1.jpg">
+							<span class= "pink_wave"></span>
+							<span class="more-text">Read More</span>
+						</a>
+							<p><span class= "triangles">&#x25B6;</span>手束真知子（てづか　まちこ）</p>
+							<p>私たちアイドルの勉強風景や過程を公開していくことで、1人じゃないんだ！というところを感じていただけたら嬉しいです！</p>
+					</figure>
+					<br class= "responsive_folding" />
+					
+					<figure class= "profile_photos">
+						<a href= "profile2.html" ontouchstart="">
+							<img src= "./img/2_profile/photo_p2.jpg">
+							<span class= "pink_wave"></span> <!--ホバーすると出現する波動効果-->
+							<span class="more-text">Read More</span> <!--ホバーすると出現するRead Moreの文字-->
+						</a>
+							<p><span class= "triangles">&#x25B6;</span>内田結衣（うちだ　ゆい）</p>
+							<p>私は自分で花雑貨や服を作っています。自分の力でオリジナルのWebページが作れるように、お勉強頑張ります！</p>
+					</figure>
+					<br class= "responsive_folding" />
+					
+					<figure class= "profile_photos">
+						<a href= "#" ontouchstart="">
+							<img src= "./img/2_profile/photo_p3.jpg">
+							<span class= "pink_wave"></span>
+							<span class="more-text">Read More</span>
+						</a>
+							<p><span class= "triangles">&#x25B6;</span>田辺麻耶（たなべ　まや）</p>
+							<p>初めまして田辺麻耶です。</br>
+							プログラミング超初心者ですが自分でホームページ制作ができるぐらいがんばります！</p>
+					</figure>
+					<br class= "responsive_folding" />
+					
+				</div>
+				
+				<div class= "profile_photos_array">
+					<figure class= "profile_photos">
+						<a href= "#" ontouchstart="">
+							<img src= "./img/2_profile/photo_p4.jpg">
+							<span class= "pink_wave"></span>
+							<span class="more-text">Read More</span>
+						</a>
+							<p><span class= "triangles">&#x25B6;</span>野田ことね（のだ　ことね）</p>
+							<p>プログラミングアイドルとして自分のためのステップアップと社会にもアプローチできるようになりたいです。頑張ります！！</p>
+					</figure>
+					<br class= "responsive_folding" />
+					
+					<figure class= "profile_photos">
+						<a href= "#" ontouchstart="">
+							<img src= "./img/2_profile/photo_p5.jpg">
+							<span class= "pink_wave"></span>
+							<span class="more-text">Read More</span>
+						</a>
+							<p><span class= "triangles">&#x25B6;</span>矢崎彩音（やさき　あやね）</p>
+							<p>私はゼロからのスタートなので</br>
+								【プログラミングアイドル】って名前の通りプログラミングがしっかり出来る様に頑張ります。</p>
+					</figure>
+					<br class= "responsive_folding" />
+					
+					<figure class= "profile_photos">
+						<a href= "#" ontouchstart="">
+							<img src= "./img/2_profile/photo_p6.jpg">
+							<span class= "pink_wave"></span>
+							<span class="more-text">Read More</span>
+						</a>
+							<p><span class= "triangles">&#x25B6;</span>橘 由紀子（たちばな　ゆきこ）</p>
+							<p>アイドルがプログラミングに挑戦する姿で１人でも多くの方々に希望のパワーをお届けできるよう頑張ります！</p>
+					</figure>
+
+				</div>
+				<p id= "profile_recommend" class= "text_pink">みなさんの推しメンバーは<br class= "responsive_folding" />見つかりましたか？</p>
+		</div>
+	</section>
+		
+		
+		
+	<section id= "video" class= "background_yellow">
+		<div class= "width_1018px">
+			<h1 class= "text_blue">VIDEO</h1>
+			<p>メンバーからのメッセージ  今後続々追加していきます！</p>
+			<video src= "//www.youtube.com/embed/_wLza5A0TME" poster= "./img/3_body_lower/video.jpg" class= "responsive_width_fit">
+				<iframe width="560px" height="315px" src="//www.youtube.com/embed/_wLza5A0TME" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
+					<img src= "./img/3_body_lower/video.jpg">
+				</iframe>
+			</video>
+			<p id= "click">動画です！クリックして再生してください。</p>
+		</div>
+	</section>
+		
+		
+		
+	<section id= "topix">
+		<div  class= "width_1018px">
+			<h1 class= "text_blue">TOPIX</h1>
+			
+			<div id= "topix_array">
+				<div class= "topix_items">
+					<a href= "topix1.html">
+						<img src= "./img/3_body_lower/top_topix_1.jpg" class= "mouseover_white">
+						<p>プログラマーって一体どんなもの？内容や求められる能力</p>
+					</a>
+				</div>
+				<br class= "responsive_folding" />
+				
+				<div class= "topix_items">
+					<a href= "topix2.html">
+						<img src= "./img/3_body_lower/top_topix_2.jpg" class= "mouseover_white">
+						<p>Web制作には、ざっくり分けると4つの職種の人間が携わります</p>
+					</a>
+				</div>
+				<br class= "responsive_folding" />
+				
+				<div class= "topix_items topix_new">
+					<a href= "#">
+						<img src= "./img/3_body_lower/top_topix_3.jpg" class= "mouseover_white">
+						<img src= "./img/3_body_lower/nat2_h_04.png" class="new_logo">
+						<p>未経験からプログラマーになるための近道とポイント</p>
+					</a>
+				</div>
+			</div>	
+		</div>
+	</section>
+		
+	<section id= "course" class= "background_yellow">
+		<div class= "width_1018px">
+			<div id= "course_text">
+				<p>プログラマー未経験だって<br class= "responsive_folding" />プロを目指せる！</p>
+				<p>パソコンがあってネットに<br class= "responsive_folding" />繋がれば誰でも受講可能♪</p>
+			</div>
+			
+
+			<div id= "btn_2_upper">
+				<img src= "./img/3_body_lower/line_left.png">
+				<p>アイドルさん達は家の中でも外からでも、</br>
+					いつでもココで勉強しています</p>
+				<img src= "./img/3_body_lower/line_right.png">
+			</div>
+
+			
+			<img src= "./img/3_body_lower/btn_2.png" class= "mouseover_white responsive_width_fit">
+			<img src= "./img/3_body_lower/illust_2.png" class= "responsive_width_fit">
+		</div>
+	</section>
+	
+	<section id= "news">
+		<div  class= "width_1018px">
+			<h1 class= "text_blue">NEWS</h1>
+			
+			<p class= "text_blue">2018.08.00 New!</p>
+			<p>☆プログラマーアイドルプロジェクト ホームページ開設</p>
+			<p>○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○
+			○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○。</p>
+		</div>
+	</section>
+	<span class= "back_to_pagetop width_1018px">
+		<a href= "#top_image"><img src= "./img/page-top.png"></a>
+	</span>
+</article>
+
+<footer class= "background_blue">
+	<p>Copyright (C) 2018 Mechakoma Co., Ltd.</p>
+</footer>
+</div> <!--wrapper終了 -->
+</body>
+</html>

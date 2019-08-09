@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang= "ja">
+<head>
+	<meta charset = "UTF-8">
+	<meta name= "viewport" content= "width=device-width, initial-scale=1.0">
+		<link rel= "stylesheet" href= "programmer_idol.css">
+		<link rel= "stylesheet" href= "prev_next_button.css">
+		<link rel= "stylesheet" href= "programmer_idol(Responsive).css">
+		<link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet"> <!--Font Awesomeの三本線-->
+		<script src= "https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script>
+			jQuery(function ($) {
+				$(function () {
+			    	$("#hamburger i").on("click", function () {
+				    	if ($("#header_menu_responsive").hasClass("open")) {
+				        	$("#header_menu_responsive").removeClass("open").fadeOut(500);
+				        	$(this).css("color","#595757");
+				    	} else {
+				        	$("#header_menu_responsive").addClass("open").fadeIn(500);
+				        	$(this).css("color","#b5b5b6");
+				    	}
+			    	});
+			  	});
+			}); 
+		</script>
+	<title>Topix 1</title>
+</head>
+<body>
+
+<header id="header">
+	<div id= "header_wrapper" class= "width_1018px">
+		<div id= "header_logo">
+			<img src="./img/0_header/rogo.png">
+		</div>
+		
+		
+		
+		<nav id= "header_menu_desktop">
+				<ul id= "header_menu">
+					<li class= "header_menus"><img src= "./img/0_header/head_line.png"><a href= "./index.html">MISSION<br>ミッション</a></li>
+					<li class= "header_menus"><img src= "./img/0_header/head_line.png"><a href= "./index.html">facebook<br>ブログ</a></li>
+					<li class= "header_menus"><img src= "./img/0_header/head_line.png"><a href= "./index.html">PROFILE<br>プロフィール</a></li>
+					<li class= "header_menus"><img src= "./img/0_header/head_line.png"><a href= "./index.html">VIDEO<br>動画</a></li>
+					<li class= "header_menus"><img src= "./img/0_header/head_line.png"><a href= "./index.html">TOPIX<br>トピックス</a></li>
+					<li class= "header_menus"><img src= "./img/0_header/head_line.png"><a href= "./index.html">NEWS<br>ニュース</a></li>
+				</ul>
+		</nav>
+		
+		<div id= "hamburger" ontouchstart=""><i class="fas fa-bars"></i></div> <!-- ハンバーガーメニューのアイコン -->
+		
+		<nav id= "header_menu_responsive">
+				<ul id= "hamburger_menu">
+					<li class= "hamburger_menus"><a href= "./index.html">MISSION</a></li>
+					<li class= "hamburger_menus"><a href= "./index.html">FACEBOOK</a></li>
+					<li class= "hamburger_menus"><a href= "./index.html">PROFILE</a></li>
+					<li class= "hamburger_menus"><a href= "./index.html">VIDEO</a></li>
+					<li class= "hamburger_menus"><a href= "./index.html">TOPIX</a></li>
+					<li class= "hamburger_menus"><a href= "./index.html">NEWS</a></li>
+				</ul>
+		</nav>
+		
+	</div>
+</header>
+
+<article>
+	<div class= "prof_topix_title">
+		<h1 class= "text_blue width_1018px">TOPIX</h1>
+	</div>
+	<section class= "prof_topix_document">
+		<div>
+			<img src= "./img/topix_photo_a.jpg">
+			<h2>WEBプログラマーって一体どんなもの？<br class= "responsive_unfolding">
+			内容や求められる能力</h2>
+
+
+			<p><span class= "prof_marking">Webプログラマー</span>には、HTMLやCSS、JavaScriptなどはもちろん、PHP、Java、Ruby、データベース言語などプログラミング言語を扱うスキルが求められます。</p>
+
+			<p>まずWEBサイトは「HTML、CSS、JavaScript」という言語で動きます。
+			細かく分野別に分けると<span class= "prof_marking">フロントエンドエンジニア</span>と呼ばれる職種になります。
+			プログラミング未経験でも比較的習得しやすいスキルです。
+			Webブラウザ上に表示される文字やデザイン、レイアウトを構成するための、いわば土台となるスキルです。
+			JavaScriptは、ブラウザ上で文字や画像を変化させるなど、ページに動きを持たせるために使用します。
+			</p>
+			
+			<p>これらを出力する仕組みを提供したり、
+			問合わせフォーム、アンケートフォーム、ショッピングサイトなどのWebアプリケーションの開発、検索ボタンを押した時の処理のプログラミングを、
+			バックエンドと呼ばれる言語「PHP、Java、Ruby」などで実装します。
+			<span class= "prof_marking">バックエンドエンジニア</span>と呼ばれる職種になります。
+			</br>これらがすべて連動することでWEBサイトは動いています。
+			これらを習得することで、Webプログラマーとして道が切り開けます。
+			</p>
+
+			<p>ビジネスロジックやデータベース処理も行うので、プログラミングスキルに加えて、論理的思考も必要です。
+			</br>システムエンジニアの指示のもと、プログラミングするので、コミュニケーション能力は不可欠です。ここで言うコミュニケーション能力というのは、「人付き合いがうまい」ということではなく、プログラムに何を要求しているかを理解し、それに対して適切な回答ができるという能力です。
+			</p>
+			<p>プログラマーはプログラムを書き始めると、その仕事が終わるまで一心不乱にプログラミングしなくてはなりません。
+			他の技術者と相談しないといけないような場面がない限り、黙々とプログラミングをすることになります。
+			</br>プログラミングは、基本的に自分一人きりで行う作業が多く、作業中は高い集中力を保たなくてはならないので、
+			<span class= "prof_marking">自分の世界に没頭することができる人、集中してサービス開発の仕事をできる人の方が向いています。</span>
+			</br>新しいものに挑戦するのが好きな人も向いているかもしれません。
+			</br>よりサービスを改善しようとしたり、効率化を図ろうとする心構えが、仕事のはかどりにつながるためです。
+			</p>
+		</div>
+	</section>
+
+
+	<section class="cp_navi">
+		<div class="cp_pagination">
+			<a class="cp_pagenum prev" href="#">prev</a>
+			<span aria-current="page" class="cp_pagenum current">1</span>
+			<a class="cp_pagenum" href="topix2.html">2</a>
+			<a class="cp_pagenum" href="#">3</a>
+			<a class="cp_pagenum next" href="topix.html">next</a>
+		</div>
+	</section>
+		<span class= "back_to_index width_1018px">
+			<a href= "index.html"><img src= "./img/toppage1.png"></a>
+		</span>
+</article>
+<footer>
+	<p>Copyright (C) 2018 Mechakoma Co., Ltd.</p>
+</footer>
+</body>
+</html>

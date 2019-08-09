@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang= "ja">
+<head>
+	<meta charset = "UTF-8">
+	<meta name= "viewport" content= "width=device-width, initial-scale=1.0">
+		<link rel= "stylesheet" href= "programmer_idol.css">
+		<link rel= "stylesheet" href= "prev_next_button.css">
+		<link rel= "stylesheet" href= "programmer_idol(Responsive).css">
+		<link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet"> <!--Font Awesomeの三本線-->
+		<script src= "https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script>
+			jQuery(function ($) {
+				$(function () {
+			    	$("#hamburger i").on("click", function () {
+				    	if ($("#header_menu_responsive").hasClass("open")) {
+				        	$("#header_menu_responsive").removeClass("open").fadeOut(500);
+				        	$(this).css("color","#595757");
+				    	} else {
+				        	$("#header_menu_responsive").addClass("open").fadeIn(500);
+				        	$(this).css("color","#b5b5b6");
+				    	}
+			    	});
+			  	});
+			}); 
+		</script>
+	<title>Profile 1</title>
+</head>
+
+<body>
+
+<header id="header">
+	<div id= "header_wrapper" class= "width_1018px">
+		<div id= "header_logo">
+			<img src="./img/0_header/rogo.png">
+		</div>
+		
+		
+		<nav id= "header_menu_desktop">
+				<ul id= "header_menu">
+					<li class= "header_menus"><img src= "./img/0_header/head_line.png"><a href= "./index.html">MISSION<br>ミッション</a></li>
+					<li class= "header_menus"><img src= "./img/0_header/head_line.png"><a href= "./index.html">facebook<br>ブログ</a></li>
+					<li class= "header_menus"><img src= "./img/0_header/head_line.png"><a href= "./index.html">PROFILE<br>プロフィール</a></li>
+					<li class= "header_menus"><img src= "./img/0_header/head_line.png"><a href= "./index.html">VIDEO<br>動画</a></li>
+					<li class= "header_menus"><img src= "./img/0_header/head_line.png"><a href= "./index.html">TOPIX<br>トピックス</a></li>
+					<li class= "header_menus"><img src= "./img/0_header/head_line.png"><a href= "./index.html">NEWS<br>ニュース</a></li>
+				</ul>
+		</nav>
+		
+		<div id= "hamburger" ontouchstart=""><i class="fas fa-bars"></i></div> <!-- ハンバーガーメニューのアイコン -->
+		
+		<nav id= "header_menu_responsive">
+				<ul id= "hamburger_menu">
+					<li class= "hamburger_menus"><a href= "./index.html">MISSION</a></li>
+					<li class= "hamburger_menus"><a href= "./index.html">FACEBOOK</a></li>
+					<li class= "hamburger_menus"><a href= "./index.html">PROFILE</a></li>
+					<li class= "hamburger_menus"><a href= "./index.html">VIDEO</a></li>
+					<li class= "hamburger_menus"><a href= "./index.html">TOPIX</a></li>
+					<li class= "hamburger_menus"><a href= "./index.html">NEWS</a></li>
+				</ul>
+		</nav>
+		
+	</div>
+</header>
+
+profile_text
+<article>
+	<div class= "prof_topix_title">
+		<h1 class= "text_blue width_1018px">TOPIX</h1>
+	</div>
+	<section class= "prof_topix_document">
+		<div class= "profile_img" id= "profile_img">
+			<img src= "./img/profile_tezuka.jpg">
+		</div>
+		<div class= "profile_text" id= "profile_text">
+			<h2>手束真知子（てづか　まちこ）</h2>
+
+
+			<p><span class= "triangles">▼</span>生年月日</br>
+			１９８６年２月２５日</p>
+			 
+			<p><span class= "triangles">▼</span>血液型</br>
+			B型</p>
+			 
+			<p><span class= "triangles">▼</span>スリーサイズ</br>
+			B９１・W５８・H８４</p>
+			 
+			<p><span class= "triangles">▼</span>身長</br>
+			１５５ｃｍ</p>
+			 
+			<p><span class= "triangles">▼</span>資格・免許</br>
+			温泉ソムリエ・銭湯検定</br>
+			乗馬ライセンス３級</br>
+			英検準2級</br>
+			ダイエットアドバイザー</br>
+			食品衛生責任者</br>
+			防火管理者</p>
+
+		</div>
+	</section>
+	
+	<section class="cp_navi">
+		<div class="cp_pagination">
+			<a class="cp_pagenum prev" href="#">prev</a>
+			<span aria-current="page" class="cp_pagenum current">1</span>
+			<a class="cp_pagenum" href="profile2.html">2</a>
+			<a class="cp_pagenum" href="#">3</a>
+			<a class="cp_pagenum" href="#">4</a>
+			<a class="cp_pagenum" href="#">5</a>
+			<a class="cp_pagenum" href="#">6</a>
+			<a class="cp_pagenum next" href="profile2.html">next</a>
+			
+		</div>
+	</section>
+	<span class= "back_to_index width_1018px">
+		<a href= "index.html"><img src= "./img/toppage1.png"></a>
+	</span>
+</article>
+
+<footer>
+	<p>Copyright (C) 2018 Mechakoma Co., Ltd.</p>
+</footer>
+</body>
+</html>
