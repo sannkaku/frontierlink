@@ -204,7 +204,6 @@
 	
 	#project_mission_logo {
 		width: 180px;
-	    margin-left: -20px;
 		margin-right: 0px;
 	}
 	
@@ -334,6 +333,10 @@
 	.hamburger_menus{
 		height: 40px;
     	margin: 10px 0 15px 0;
+	}
+
+	#project_mission_logo{
+	    margin-left: -20px;
 	}
 
 /*
