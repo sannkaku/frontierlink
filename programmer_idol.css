@@ -204,20 +204,9 @@ a{
     padding-top: 20px;
 }
 
-#project_mission:after{  /*三角の切り込みづくり。こちら参照：https://www.granfairs.com/blog/staff/use-triangle-with-css*/
-	width: 0;
-	height: 0;
-	margin: auto;
-	content: "";
-	border-style: solid;
-	border-color: #60a0f6 transparent transparent transparent;
-	border-width: 30px 30px 0 30px;
-	
-	position: absolute;
-	right: 0;
-	bottom: -29px;
-	left: 0;
-}
+
+
+
 
 #project_mission_inner{
     margin-left: auto;
@@ -233,8 +222,6 @@ a{
 }
 
 #project_mission_text{
-	padding-top: 18px;
-	padding-bottom: 18px;
     text-align: left;
     float: left;
 }
@@ -247,6 +234,20 @@ a{
 	font-weight: bold;
 }
 
+#triangle_cut{  /*三角の切り込みづくり。こちら参照：https://www.granfairs.com/blog/staff/use-triangle-with-css*/
+	width: 0;
+	height: 0;
+	margin: auto;
+	content: "";
+	border-style: solid;
+	border-color: #60a0f6 transparent transparent transparent;
+	border-width: 30px 30px 0 30px;
+	
+	position: absolute;
+	right: 0;
+	bottom: -30px;
+	left: 0;
+}
 
 .fontsize_24px{
 	font-size: 24px;

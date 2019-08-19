@@ -164,12 +164,10 @@
 		text-decoration: none;
 	}
 	
-
-
 	.hamburger_menus:last-child{
 		border-bottom: none;
 	}
-	
+
 
 /* ------------------------------------------ */
 
@@ -192,6 +190,7 @@
 	
 	#project_mission{
 		height: 180px;
+		padding-top: 0;
 	}
 	
 	#project_mission img{
@@ -200,6 +199,10 @@
 	
 	#project_mission p{
 		margin-bottom: 0px;
+	}
+	
+	#project_mission_inner{
+		padding-top: 20px;
 	}
 	
 	#project_mission_logo {
@@ -247,8 +250,6 @@
 	    padding-left: 0px;
 	    border-left: none;
 	    border-left-style: none;
-		
-		
 	}
 	
 	
@@ -336,7 +337,7 @@
 	}
 
 	#project_mission_logo{
-	    margin-left: -20px;
+	    margin-left: -10px;
 	}
 
 /*
