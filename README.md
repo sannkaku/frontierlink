@@ -5,7 +5,3 @@
 フロンティアリンクインターン課題
 レスポンシブデザイン対応
 
-
-
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-
