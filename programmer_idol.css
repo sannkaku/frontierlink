@@ -215,7 +215,7 @@ a{
 	
 	position: absolute;
 	right: 0;
-	bottom: -30px;
+	bottom: -29px;
 	left: 0;
 }
 
@@ -233,7 +233,8 @@ a{
 }
 
 #project_mission_text{
-	padding-top: 20px;
+	padding-top: 18px;
+	padding-bottom: 18px;
     text-align: left;
     float: left;
 }
