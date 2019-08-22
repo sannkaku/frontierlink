@@ -633,7 +633,8 @@ h2{
     text-align: right;
 }
 
-.back_to_index img{
+.back_to_index img,
+.back_to_pagetop img{
 	margin-top: 20px;
 	margin-bottom: 20px;
 }
