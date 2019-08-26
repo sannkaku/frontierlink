@@ -358,6 +358,10 @@ a{
 	padding-left: 0;
 	padding-right: 0;
 	clear: both;
+	display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .profile_photos,
@@ -370,6 +374,8 @@ a{
 .profile_photos{
 	width: 315px;
 	height: 440px;
+	margin-left: 0;
+    margin-right: 0;
 }
 
 .profile_photos p{

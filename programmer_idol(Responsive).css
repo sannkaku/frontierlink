@@ -9,7 +9,7 @@
 		margin: 0 auto;
 		padding-left: 8px;
 	    padding-right: 8px;
-	}
+	}f
 	
 	.background_blue{
 		width: 100%;
@@ -41,7 +41,7 @@
 	
 	.profile_photos_array,
 	#topix_array{
-		width: 50%;
+		width: 315px;
 		margin: 0 auto;
 	}
 }
@@ -366,7 +366,6 @@
 	
 	.profile_photos_array,
 	#topix_array{
-		width: 100%;
 		margin: 0 auto;
 	}
 	
