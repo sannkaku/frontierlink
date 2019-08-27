@@ -9,7 +9,7 @@
 		<link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet"> <!--Font Awesomeの三本線-->
 		<script src= "https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 		<script>
-			jQuery(function ($) {
+			$(function () {
 				$(function () {
 			    	$("#hamburger i").on("click", function () {
 				    	if ($("#header_menu_responsive").hasClass("open")) {
@@ -21,7 +21,11 @@
 				    	}
 			    	});
 			  	});
-			}); 
+			
+				$(function() {
+		            $("#footer").load("./footer.html, #footer_common");
+		        });
+			});
 		</script>
 	<title>Topix 1</title>
 </head>
@@ -117,8 +121,7 @@
 			<a href= "index.html"><img src= "./img/toppage1.png"></a>
 		</span>
 </article>
-<footer>
-	<p>Copyright (C) 2018 Mechakoma Co., Ltd.</p>
-</footer>
+<footer id= "footer"></footer>
+	
 </body>
 </html>
