@@ -358,10 +358,6 @@ a{
 	padding-left: 0;
 	padding-right: 0;
 	clear: both;
-	display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
 }
 
 .profile_photos,
@@ -374,8 +370,6 @@ a{
 .profile_photos{
 	width: 315px;
 	height: 440px;
-	margin-left: 0;
-    margin-right: 0;
 }
 
 .profile_photos p{
@@ -595,7 +589,7 @@ h2{
 }
 
 .prof_topix_title {
-    margin-top: 80px;
+    margin-top: 96px;
 	margin-bottom: 60px;
     height: 136px;
     color: #60a0f6;
@@ -639,7 +633,8 @@ h2{
     text-align: right;
 }
 
-.back_to_index img{
+.back_to_index img,
+.back_to_pagetop img{
 	margin-top: 20px;
 	margin-bottom: 20px;
 }
