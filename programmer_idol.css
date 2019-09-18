@@ -639,6 +639,11 @@ h2{
     text-align: right;
 }
 
+.back_to_pagetop{
+	height: auto;
+	margin-bottom: 20px;
+}
+
 .back_to_index img{
 	margin-top: 20px;
 	margin-bottom: 20px;
