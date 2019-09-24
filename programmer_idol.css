@@ -459,13 +459,15 @@ video{
 #course p{
 	margin-top: 10px;
 	margin-bottom: 10px;
-	font-size: 40px;
+	font-size: 34px;
 	font-weight: bold;
 }
 
+
 #course img{
 	margin-bottom: 10px;
-}
+} 
+
 
 #course_text{
 	padding-top: 48px;
@@ -483,7 +485,10 @@ video{
 	font-size: 2vw;
 }
 
-
+#course_img{
+	padding-top: 20px;
+    padding-bottom: 30px;
+}
 
 #news{
 	font-family: "Noto Sans JP", sans-serif;
