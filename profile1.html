@@ -11,15 +11,15 @@
 		<script>
 			jQuery(function ($) {
 				$(function () {
-			    	$("#hamburger i").on("click", function () {
-				    	if ($("#header_menu_responsive").hasClass("open")) {
-				        	$("#header_menu_responsive").removeClass("open").fadeOut(500);
-				        	$(this).css("color","#595757");
-				    	} else {
-				        	$("#header_menu_responsive").addClass("open").fadeIn(500);
-				        	$(this).css("color","#b5b5b6");
-				    	}
-			    	});
+					$("#hamburger i").on("click", function () {
+						if ($("#header_menu_responsive").hasClass("open")) {
+							$("#header_menu_responsive").removeClass("open").fadeOut(500);
+							$(this).css("color","#595757");
+						} else {
+							$("#header_menu_responsive").addClass("open").fadeIn(500);
+							$(this).css("color","#b5b5b6");
+						}
+					});
 			  	});
 			}); 
 		</script>
