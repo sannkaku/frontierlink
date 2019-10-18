@@ -10,26 +10,20 @@
 }
 */
 
-
-
 nav.cp_navi *, nav.cp_navi *:after, nav.cp_navi *:before {
 	-webkit-box-sizing: border-box;
 	        box-sizing: border-box;
 }
 
-
 nav.cp_navi a {
 	text-decoration: none;
 }
-
 
 nav.cp_navi {
 	margin: 2em 0;
 	text-align: center;
 	clear: both;            //(!)追加ＣＳＳ
 }
-
-
 
 .cp_navi{  //(!)この中、全部追加CSS
     width: 100%;
@@ -39,15 +33,11 @@ nav.cp_navi {
     align-items: center;
 }
 
-
 .cp_navi .cp_pagination {
 	margin-top: 2em;
 	padding: 0 0.5em;
 	display: inline-block;
 }
-
-
-
 
 .cp_navi .cp_pagenum {
 	width: 50px;
@@ -65,7 +55,6 @@ nav.cp_navi {
 	
 }
 
-
 .cp_navi .cp_pagenum:hover,
 .cp_navi .cp_pagenum.current {
 	font-weight: bold;
@@ -74,18 +63,12 @@ nav.cp_navi {
 	border-radius: 50%;
 }
 
-
 .cp_navi .cp_pagenum.prev:hover,
 .cp_navi .cp_pagenum.next:hover {
 	color: #EC407A;
 	background-color: transparent;
 	border-radius: 50%;
 }
-
-
-
-
-
 
 
 
@@ -116,6 +99,8 @@ nav.cp_navi {
 		border-radius: 0.3em;
 	}
 }
+
+
 @media only screen and (min-width: 120px) and (max-width: 767px) {
 	.cp_navi .cp_pagenum {
 	display: none;
@@ -151,5 +136,3 @@ nav.cp_navi {
 		border-radius: 0.3em;
 	}
 }
-
-
